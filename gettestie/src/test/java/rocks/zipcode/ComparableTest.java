@@ -20,14 +20,14 @@ public class ComparableTest {
 
     @Test
     public void testCompare2() {
-        ArrayList<Integer> list = new ArrayList<Integer>();
+        ArrayList<String> list = new ArrayList<String>();
 
-        list.add(0,30);
-        list.add(1,25);
+        list.add(0,"zero");
+        list.add(1,"one");
 
         list.remove(1);
 
-        assertFalse(list.contains(25));
+        assertFalse(list.contains("one"));
     }
 
 }
