@@ -4,6 +4,10 @@ import org.junit.Test;
 import java.util.ArrayList;
 
 
+// ArrayList<String> cars = new ArrayList<String>(); // Create an ArrayList object
+// 
+
+
 public class ArrayListTest {
     @Test
     public void testAddAndGet(){
