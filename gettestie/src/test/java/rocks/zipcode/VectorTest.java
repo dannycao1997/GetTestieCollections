@@ -4,7 +4,7 @@ import org.junit.Test;
 import java.util.Vector;
 
 public class VectorTest {
-    
+
     @Test
     public void testAdd(){
         Vector<String> vector = new Vector<String>();
